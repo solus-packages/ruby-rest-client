@@ -1,0 +1,18 @@
+name       : ruby-rest-client
+version    : 2.0.2
+release    : 1
+source     :
+    - https://rubygems.org/downloads/rest-client-2.0.2.gem : 1295e486591f8ef7786451e28d24f8aa0a04cc47767cd1859b729575b2d0ecc3
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - rest-client
+description: |
+    A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-http-cookie
+    - ruby-mime-types
+    - ruby-netrc
+install    : |
+    %gem_install
