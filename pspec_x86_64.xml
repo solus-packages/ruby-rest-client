@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-rest-client</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,80 +19,80 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/.rspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/.rubocop-disables.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/.rubocop.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/AUTHORS</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/bin/restclient</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/history.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/rest-client.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/rest_client.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/abstract_response.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/exceptions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/params_array.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/payload.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/platform.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/raw_response.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/request.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/resource.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/response.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/utils.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/windows.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient/windows/root_certs.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/rest-client.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/rest-client.windows.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/helpers.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/_lib.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/244b5494.0</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/81b9768f.0</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/README</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/digicert.crt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/415660c1.0</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/7651b327.0</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/README</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/verisign.crt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/certs/digicert.crt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/certs/verisign.crt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/httpbin_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/integration_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/integration/request_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/_lib.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/abstract_response_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/exceptions_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/master_shake.jpg</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/params_array_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/payload_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/raw_response_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/request2_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/request_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/resource_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/response_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/restclient_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/utils_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rest-client-2.0.2/spec/unit/windows/root_certs_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/rest-client-2.0.2.gemspec</Path>
+            <Path fileType="executable">/usr/bin/restclient</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/.rubocop-disables.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/AUTHORS</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/bin/restclient</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/history.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/rest-client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/rest_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/abstract_response.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/exceptions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/params_array.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/payload.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/platform.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/raw_response.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/request.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/resource.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/response.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/utils.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/windows.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/lib/restclient/windows/root_certs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/rest-client.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/rest-client.windows.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/helpers.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/_lib.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/244b5494.0</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/81b9768f.0</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_digicert/digicert.crt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/415660c1.0</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/7651b327.0</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/capath_verisign/verisign.crt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/certs/digicert.crt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/certs/verisign.crt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/httpbin_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/integration_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/integration/request_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/spec_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/_lib.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/abstract_response_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/exceptions_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/master_shake.jpg</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/params_array_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/payload_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/raw_response_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/request2_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/request_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/resource_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/response_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/restclient_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/utils_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rest-client-2.0.2/spec/unit/windows/root_certs_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/rest-client-2.0.2.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-23</Date>
+        <Update release="2">
+            <Date>2018-12-26</Date>
             <Version>2.0.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
